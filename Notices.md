@@ -2,10 +2,7 @@
 
 ## Code of Conduct
 
-Contact for Code of Conduct issues or inquires:  _________________
-
-[Ideally list two different individuals above (not a generic mailing list) as someone submitting a Code of Conduct complaint will want to know exactly who is receiving the complaint. We recommend two individuals in the case one of the individuals is the subject of or directly involved in the subject of a complaint.]
-
+Contact for Code of Conduct issues or inquires: coc@trustframe.com
 
 ## License Acceptance
 
@@ -13,7 +10,7 @@ Per Community Specification License 1.0 Section 2.1.3.3, Licensees may indicate 
 
 A Licensee may consent to accepting the current Community Specification License version or any future version of the Community Specification License by indicating "or later" after their specification version.
 
----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Licensee’s name:
 
@@ -21,7 +18,7 @@ Authorized individual and system identifier:
 
 Specification version:
 
----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 ## Withdrawals
 
@@ -29,7 +26,7 @@ Name of party withdrawing:
 
 Date of withdrawal:  
 
----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 ## Exclusions
 
@@ -55,4 +52,4 @@ This section includes any Exclusion Notices made against a Draft Deliverable or 
     
 	(ii) identification of the specific part(s) of the Specification whose implementation makes the excluded claim a Necessary Claim.
 
------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
