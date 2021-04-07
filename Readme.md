@@ -1,4 +1,4 @@
-# Authentic Data Provenance Logs
+# Authentic Data Specifications
 
 This project manages the set of specifications for authentic data provenance logs and their associated URN, URL, and protocols. It is specified using the [Community Specification][0] developed via the [Joint Development Foundation][1], with inspiration from the [Open Web Foundation Agreements][2] and the [Alliance for Open Media Patent License 1.0][3].
 
@@ -49,6 +49,10 @@ Authentic data provenance logs always manage keys and rotations and mixins of su
 
 The design that follows is an opinionated one. The digest function used is the [Blake2b algorithm][7]. The public key cryptography algorithm used is [BLS][8]. The text encoding of binary data (e.g. digests and keys) when necessary is [Base58][9]. The script and stack machine used for the puzzle and solution in each event is a subset of [CCLang][10]. The default encoding for provenance logs is [BARE message encoding][11]. Wherever possible, this standard uses already established standards. In the few instances where no standard exists this standard strives to *minimize* the amount of invention.
 
+## Authentic Data URNs
+
+## Authentic Data URLs
+
 ## Status
 
 - [ ] Complete the pre-draft specification.
@@ -58,7 +62,7 @@ The design that follows is an opinionated one. The digest function used is the [
 
 ## Repository Contents
 
-* The provenance log format is described in [Provenance Log Format.md][8].
+* The provenance log format is described in [Authentic Data Provenance Log.md][8].
 * The URN format and the protocol for generating them is described in [Authentic Data Indentifier.md][9].
 * The URL format and the protocol for generating them is described in [Authentic Data Locator.md][10].
 * Instructions on how to contribute are in [Contributing.md][11].
@@ -72,7 +76,7 @@ The design that follows is an opinionated one. The digest function used is the [
 [5]: https://sovrin.org
 [6]: https://identity.foundation
 [7]: https://iternetidentityworkshop.com
-[8]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Provenance%20Log%20Format.md
+[8]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Authentic%20Data%20Provenance%20Log.md
 [9]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Authentic%20Data%20Identifier.md
 [10]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Authentic%20Data%20Locator.md
 [11]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Contributing.md

@@ -154,13 +154,13 @@ Global
 
 ## Examples
 
-An authentic data identifier for a provenance log with only one event that hash the [Blake2b][10] has value of "bda54eb8e94c7472328481738b5003acbdc433e0d7fefe7410d4f9bafb659379":
+An authentic data identifier for a provenance log with only one event that hash the [Blake2b][10] has value of `bda54eb8e94c7472328481738b5003acbdc433e0d7fefe7410d4f9bafb659379`:
 
 ```
 urn:adi:DmJFiNCt6qKBqL5TX9cofWkVA27wDQp4eXfaJh13XUwa
 ```
 
-An authentic data identifier for a provenance log with three events, the inception event has a hash of "bda54eb8e94c7472328481738b5003acbdc433e0d7fefe7410d4f9bafb659379" and the tail event has a hash of "4b25fc6c77cf6935ac343162e41f559eb5af23c144e43e2ed15cc20fbc3d32cd":
+An authentic data identifier for a provenance log with three events, the inception event has a hash of `bda54eb8e94c7472328481738b5003acbdc433e0d7fefe7410d4f9bafb659379` and the tail event has a hash of `4b25fc6c77cf6935ac343162e41f559eb5af23c144e43e2ed15cc20fbc3d32cd`:
 
 ```
 urn:adi:DmJFiNCt6qKBqL5TX9cofWkVA27wDQp4eXfaJh13XUwa:2:64MAzrPhKLBHFRy25uC82Eo5MU1FC1XLdM2Jvsx2tTMv
@@ -168,18 +168,18 @@ urn:adi:DmJFiNCt6qKBqL5TX9cofWkVA27wDQp4eXfaJh13XUwa:2:64MAzrPhKLBHFRy25uC82Eo5M
 
 ## Conclusion
 
-Provenance logs are designed to be portable and an easily understood means for recording the provenance log of any digital identity and/or authentic data. This is just a quick and dirty draft specification based off of the open source implementation and will be updated with more details as the code firms up.
+Authentic data identifiers are intended to provide a stable identifier for a provenance log that has strong cryptographic binding. The namespace identifier is both globally unique and stable for the entire life of the associated provenance log. The sequence number and tail fingerprint changes as the provenance log adds more events and is used to not only address specific events in the provenance log but are also used to provide end-to-end integrity of the events between the first event and the tail event specified. This design is critical for the proof-of-existence system that provides strong cryptographic guarantees over the data stored in the provenance log.
 
 [0]: https://www.iso.org/files/live/sites/isoorg/files/developing_standards/docs/en/how-to-write-standards.pdf
 [1]: https://www.iso.org/files/live/sites/isoorg/files/developing_standards/docs/en/model_document-rice_model.pdf
 [2]: https://github.com/CommunitySpecification/1.0
-[3]: https://github.com/TrustFrame/provenance-log-specifications
-[4]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Provenance%20Log%20Format.md
+[3]: https://github.com/TrustFrame/authentic-data-specifications
+[4]: https://github.com/TrustFrame/authentic-data-specifications/blob/main/Authentic%20Data%20Provenance%20Log.md
 [5]: https://tools.ietf.org/html/rfc7686
 [6]: https://tools.ietf.org/html/rfc8141
 [7]: https://tools.ietf.org/html/rfc3406
 [8]: https://www.ietfjournal.org/the-curious-history-of-uniform-resource-names/
-[9]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Authentic%20Data%20Locator.md
+[9]: https://github.com/TrustFrame/authentic-data-specifications/blob/main/Authentic%20Data%20Locator.md
 [10]: https://tools.ietf.org/html/rfc7693
 [11]: https://link.springer.com/article/10.1007%2Fs00145-004-0314-9
 [12]: https://tools.ietf.org/id/draft-msporny-base58-01.txt

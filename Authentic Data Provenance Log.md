@@ -176,12 +176,12 @@ Anchor receipt objects have the following fields:
 
 ## Conclusion
 
-Provenance logs are designed to be portable and an easily understood means for recording the provenance log of any digital identity and/or authentic data. This is just a quick and dirty draft specification based off of the open source implementation and will be updated with more details as the code firms up.
+Authentic data provenance logs are designed to be portable and an easily understood means for recording the provenance log of any digital identity and/or authentic data. This is just a quick and dirty draft specification based off of the open source implementation and will be updated with more details as the code firms up.
 
 [0]: https://www.iso.org/files/live/sites/isoorg/files/developing_standards/docs/en/how-to-write-standards.pdf
 [1]: https://www.iso.org/files/live/sites/isoorg/files/developing_standards/docs/en/model_document-rice_model.pdf
 [2]: https://github.com/CommunitySpecification/1.0
-[3]: https://github.com/TrustFrame/provenance-log-specification
+[3]: https://github.com/TrustFrame/authentic-data-specifications
 [4]: https://tools.ietf.org/html/rfc7693
 [5]: https://link.springer.com/article/10.1007%2Fs00145-004-0314-9
 [6]: https://tools.ietf.org/id/draft-msporny-base58-01.txt
