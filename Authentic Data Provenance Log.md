@@ -103,7 +103,7 @@ What follows is description of the fields in an event:
 
 - **type**: The event object type identifier.
 - **version**: The version of this format, current always 1.
-- **timestamp**: Either an [RFC3339 timestamp][9] or it can also be a Bitcoin block height and block hash timestamp.
+- **timestamp**: Either an [ISO8601 timestamp][9] or it can also be a Bitcoin block height and block hash timestamp.
 - **hash prev**: The Blake2b hash of the previous event and its associated anchor receipt(s).
 - **associated data**: A list of one or more objects of associated data.
 - **puzzle**: A script used to validate the next event in the log.
@@ -187,4 +187,4 @@ Authentic data provenance logs are designed to be portable and an easily underst
 [6]: https://tools.ietf.org/id/draft-msporny-base58-01.txt
 [7]: https://github.com/dhuseby/cclang
 [8]: https://baremessages.org/
-[9]: https://tools.ietf.org/html/rfc3339
+[9]: https://www.w3.org/TR/NOTE-datetime
