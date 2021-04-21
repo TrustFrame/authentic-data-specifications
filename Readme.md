@@ -75,9 +75,9 @@ The design that follows is an opinionated one. The digest function used is the [
 [4]: https://hyperledger.org
 [5]: https://sovrin.org
 [6]: https://identity.foundation
-[7]: https://iternetidentityworkshop.com
-[8]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Authentic%20Data%20Provenance%20Log.md
-[9]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Authentic%20Data%20Identifier.md
-[10]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Authentic%20Data%20Locator.md
-[11]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Contributing.md
+[7]: https://en.wikipedia.org/wiki/BLAKE_%28hash_function%29#BLAKE2b_algorithm
+[8]: https://en.wikipedia.org/wiki/BLS_(Cryptography)
+[9]: https://en.wikipedia.org/wiki/Base58
+[10]: https://en.wikipedia.org/wiki/Clang
+[11]: https://baremessages.org/
 [12]: https://github.com/TrustFrame/provenance-log-specifications/blob/main/Code%20of%20Conduct.md
